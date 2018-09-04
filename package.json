@@ -1,0 +1,27 @@
+{
+  "name": "rAreNex-personal-website",
+  "version": "1.0.0",
+  "description": "The personal website of rAreNex (Nadir Abdullayev)",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rAreNex/Personal-Website.git"
+  },
+  "author": "Nadir Abdullayev (rAreNex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rAreNex/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/rAreNex/Personal-Website#readme"
+}
