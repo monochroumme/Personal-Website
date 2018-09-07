@@ -1,77 +1,129 @@
 {{{ homeBg }}}
   <div id="home-fg">
-    <h1 style="margin: 0;">Nadir Abdullayev</h1>
+    <h1>Nadir Abdullayev</h1>
+    <h3>a self-taught programmer and hobbyist</h3>
   </div>
 </div>
-<div class="container-fluid">
-  <div id="section-about" class="container">
+<div id="about-me" class="container-fluid row">
+  <div class="col-md-4">
+    <img id="photo-of-me" src="../pics/photoOfMe3.jpg">
+    <img id="photo-of-me-bg" src="../pics/code-1.png">
+  </div>
+  <div id="info-about-me" class="col-md-8">
+    <p>
+      Hi, my name is Nadir and I'm a self-taught programmer and hobbyist. Over a decade ago I discovered the world of computer programming and got instantly captivated.<br>
+      <br>
+      Since then I've been programming in many different programming languages and creating my own independent projects. I've created this website to share my content and experiences with you, as well as to connect with like-minded people.
+    </p>
+  </div>
+</div>
+<div id="games" class="container-fluid bg-dark-gray section">
+  <h1>Video Games</h1>
+  <div id="games-info" class="container">
     <div class="row">
-      <div class="col-md-4">
-        <image id="photo-of-me" src="../pics/photoOfMe.jpg">
+      <div class="col-4">
+        <img src="../pics/scb.png" alt="Superb Cubio Bros">
+        <p>
+          This is my 1st game in Unity. It was just the 1st level of Super Mario Bros with cube graphics because of which I called it Superb Cubio Bros
+        </p>
       </div>
-      <div class="col-md-8">
-        <p id="info-about-me">
-          Welcome! My name is Nadir Abdullayev and I'm a self-taught programmer and hobbyist. Over a decade ago I met programming and instantly got captivated. The first entrance point for me were video games. When I was about 11 years old I got interested in how they're made and started digging internet to learn that info. I got to know Unity and started learned C#, created 4 small games and then I got interested in creating games in Java. So, I started learning Java and it went well as C# and Java are alike. Some of my creations (the complete ones) you can find in my website.<br>This is my first website created by me from scratch and you know what? It wasn't hard at all. About 2 months of learning to program on web and one practical project (COM, which you can also find in this website) and here I am, creating my own website. I created it to share here my content and interests, as well as to connect with like minded individuals. (scraped it off but good enough for now)
+      <div class="col-8">
+        <p>
+          The entrance to programming for me were video games. I've been playing games since I was 3 and at age of 11 I started wondering how to make them. I wasn't consistent (discovered Minecraft at that time) but after some time (years) I discovered Unity Engine and started learning C# (and a bit of JS) which was the first programming language for me to actually get proficient in.
         </p>
       </div>
     </div>
   </div>
-</div>
-<div id="sections" class="container-fluid bg-dark-gray">
-  <div id="section-work" class="container row">
-    <!-- TODO make it autofill from db -->
-    <div id="work-software" class="col-4">
-      <h1>Software</h1>
-      <a href="#">
-        <img class="work-img" src="../pics/NTLogo2m.png" alt="NexTex">
-        <h5>NexTex</h5>
-      </a>
-      <a href="#">
-        <img class="work-img" src="../pics/TIRIV3LOGO.png" alt="TIRIV3">
-        <h5>TIRIV3</h5>
-      </a>
-      <a href="#">
-        <img class="work-img" src="../pics/WSDLogo1.png" alt="WSD">
-        <h5>WSD</h5>
-      </a>
-    </div>
-    <div id="work-games" class="col-4">
-      <h1>Games</h1>
-      <a href="#">
-        <img class="work-img" src="../pics/snakelogo.png" alt="Snake">
-        <h5>Snake</h5>
-      </a>
-      <a href="#">
-        <img class="work-img" src="../pics/Up&UpSx2.png" alt="Up&Up">
-        <h5>Up&Up</h5>
-      </a>
-      <a href="#">
-        <img class="work-img" src="../pics/ponglogo.png" alt="Pong">
+  <div id="games-showcase" class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../pics/logos/ponglogo.png" alt="Pong">
         <h5>Pong</h5>
-      </a>
-    </div>
-    <div id="work-youtube" class="col-4">
-      <h1>YouTube</h1>
-      <h5>Coming Soon!</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="../pics/logos/up&uplogo.png" alt="Up&Up">
+        <h5>Up&Up</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="../pics/logos/snakelogo.png" alt="Snake">
+        <h5>Snake</h5>
+      </div>
     </div>
   </div>
 </div>
-<div id="section-blog" class="container">
-  <h1>Blog</h1>
-</div>
-<div class="container-fluid bg-dark-gray">
-  <div id="section-links" class="container">
-    <!-- TODO correct the links -->
-    <a href="https://www.youtube.com/user/PlayNadirOK/"><img src="../pics/icons/youtube.png" alt="YouTube"></a>
-    <a href="https://twitter.com/rAreNexx"><img src="../pics/icons/twitter.png" alt="Twitter"></a>
-    <a href="https://www.instagram.com/rarenexx/"><img src="../pics/icons/instagram.png" alt="Instagram"></a>
-    <a href="https://github.com/rAreNex"><img src="../pics/icons/github.png" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/nadir-abdullayev-9b5a7016b/"><img src="../pics/icons/linkedin.png" alt="LinkedIn"></a>
-    <a href="#"><img src="../pics/icons/email.png" alt="Email"></a>
-    <h5>Email me with any ideas, suggestions, or anything you want!<br>nexusgeniuz@gmail.com</h5>
+<div id="software" class="container-fluid section">
+  <h1>Software</h1>
+  <div id="software-info" class="container">
+    <p>
+      While I was learning C# to start creating games I made my first ever program and called it WSD which means WindowsShutDowner. Pretty self-evident of its function.<br>
+      Also, when I was learning Java, before I started creating games, I picked up an interesting and at the time "impossible" project, a local chat app. At least it seemed like that.
+    </p>
+  </div>
+  <div id="software-showcase" class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div>
+          <div>
+            <img src="../pics/nextexchat.png" alt="NexTex">
+            <p>
+              This is my first GUI program written in Java using Swing
+            </p>
+          </div>
+          <h5>NexTex</h5>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div>
+          <div>
+            <img src="../pics/wsd.png" alt="WSD">
+            <p>
+              And this is WSD, my first GUI program in C#
+            </p>
+          </div>
+          <h5>WSD</h5>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-<div id="footer" class="container-fluid bg-dark-gray">
-  <a href="javascript:" id="go-up-arrow"><img src="../pics/icons/arrowUp.png" alt="Go up"></a>
-  <h7>&copy; 2018 Nadir Abdullayev (rAreNex)<br>MIT License</h7>
+<div id="blog" class="container-fluid bg-dark-gray section">
+  <div class="container">
+    <h1>Blog</h1>
+    <p style="text-align: center; font-size: 20px; margin: 0; padding: 0;">Coming Soon!</p>
+  </div>
+</div>
+<div id="summary" class="container-fluid section">
+  <div id="summary-info" class="container">
+    <h1>Summary</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>C#</h3>
+        <p>
+          Working since 2015, made 4 games in Unity (1 mobile) and a program using Windows Forms
+        </p>
+      </div>
+      <div class="col-md-4">
+          <img src="../pics/JavaCSharp.png" alt="Java\C#">
+      </div>
+      <div class="col-md-4">
+        <h3>Java</h3>
+        <p>
+          Working since 2017, made 2 games using LibGDX framework and a local chat app using Swing
+        </p>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-md-8">
+        <h3>Web</h3>
+        <p>
+          Always had a thing for it but started working in 2018, created a simple web app as a practice using technologies and languages such as HTML, CSS, JS, jQuery, Bootstrap, Node.js, Express, MongoDB, AJAX, JSON, also Postman and Git.<br>The second web project is this personal website of mine
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3>Also...</h3>
+        <p>
+        	Studied bash and C at university where I am a second-year student
+        </p>
+      </div>
+    </div>
+  </div>
 </div>

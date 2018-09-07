@@ -1,0 +1,53 @@
+Page structure (V3):
+1. Say my name
+2. A bit of who I am and why I've created this website
+3. Start from games (showcase and a bit of story)
+4. Into my software (showcase and a bit of story)
+(No YouTube for now)
+5. My blog (more like a chronology but w/ my own posts)
+6. My short skill showcase
+7. Connect w/ me (links)
+8. Made by me, inspired by many (footer)
+
+
+<index data v3.0.0>
+About me:
+Hi, I'm Nadir Abdullayev and I'm a self-taught programmer and hobbyist. Over a decade ago I discovered the world of software development and got instantly captivated.
+
+Since then I've been programming in many different programming languages and creating my own independent projects. I've created this website to share my content and experiences with you, as well as to connect with like-minded people.
+
+Games:
+The entrance to programming for me were video games. I've been playing games since I was 3 and at age of 11 I started wondering how to make them. I wasn't consistent (discovered Minecraft at that time) but after some time (years) I discovered Unity Engine and started learning C# (and a bit of JS) which was the first programming language for me to actually get proficient in.
+
+// On the photo where I show my first game
+This is my 1st game in Unity. It was just the 1st level of Super Mario Bros with cube graphics because of which I called it Superb Cubio Bros.
+
+Software:
+While I was learning C# to start creating games I made my first ever program and called it WSD which means WindowsShutDowner. Pretty self-evident of its function. Also, when I was learning Java, before I started creating games, I picked up an interesting and at the time "impossible" project, a local chat app. At least it seemed like that.
+
+// On the photo of NexTex
+This is my first GUI program written in Java using Swing.
+
+// On the photo of WSD
+And this is WSD, my first GUI program in C#.
+
+Summary:
+	Software:
+	Worked a lot with C# and Java, also studied C in university. Like to work both on Windows and Ubuntu. Created this website with a lot of technologies such as HTML, CSS, JS, Node.js, Express, <MongoDB>, Handlebars, <AJAX, JSON>, etc.
+	Creating the first C# program of mine wasn't really challenging. The real challenge was making NexTex in Java which was a local chat. For example, to finally make the server and the client work with each other I had to download 5+ books and read the server-client part in each of them before I eventually managed to get them to work.
+
+	Video Games:
+	Created 4 games in Unity using C# language.
+	Created 2 games in Java using GDX library.
+
+	Also:
+	While creating games and videos I worked a lot with Photoshop, and I've also worked with Premiere, Vegas Pro, and Blender.
+</index data v3.0.0>
+
+<index data v3.0.1>
+Summary:
+	Software:
+	C#: Working since 2015, made 4 games in Unity (1 mobile) and a program using Windows Forms
+	Java: Working since 2017, made 2 games using LibGDX framework and a local chat app using Swing
+	Web: Always had a thing for it but started working at 2018, created a simple web app as a practice using technologies and languages such as HTML, CSS, JS, jQuery, Bootstrap, Node.js, Express, MongoDB, AJAX, JSON, also Postman and Git. The second web project is this personal website of mine
+	Also: Studied bash and C at university where I am a second-year student
